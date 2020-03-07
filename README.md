@@ -1,8 +1,16 @@
-This problem is the same as the previous problem (HTTP COLLECT) in that you need to use `http.get()`.
+Write a TCP time server!
 
-However, this time you will be provided with three URLs as the first three command-line arguments.
+Your server should listen to TCP connections on the port provided by the first argument to your program. For each connection you must write the current date & 24 hour time in the format:
 
-You must collect the complete content provided to you by each of the URLs and print it to the console. You don't need to print out the
-length, just the data as a String; one line per URL.
+```
+YYYY-MM-DD hh:mm
+```
 
-The catch is that you must print them out in the same order as the URLs are provided to you as command-line arguments.
+followed by a newline character. Month, day, hour and minute must be
+zero-filled to 2 integers. For example:
+
+```
+2013-07-06 17:42
+```
+
+After sending the string, close the connection.
