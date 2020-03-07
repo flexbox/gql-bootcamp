@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-bootcamp",
+  "version": "1.0.0",
+  "description": "On the road to GraphQL bootcamp",
+  "main": "baby-steps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Leuliette",
+  "license": "MIT",
+  "dependencies": {
+    "bl": "^4.0.1"
+  }
+}
