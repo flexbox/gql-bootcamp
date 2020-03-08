@@ -41,5 +41,5 @@ http
   .listen(Number(param));
 
 console.log(
-  `\nServer running at http://127.0.0.1:${param}/api/parsetime?iso=2020-03-08T16:05:40.030Z`
+  `\nServer running at http://127.0.0.1:${param}/api/parsetime?iso=2020-03-08T16:22:44+0000`
 );
