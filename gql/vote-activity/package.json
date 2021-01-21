@@ -1,0 +1,16 @@
+{
+  "name": "vote-activity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "keywords": [],
+  "author": "Moon Highway",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.11.0",
+    "nodemon": "^2.0.2"
+  }
+}
